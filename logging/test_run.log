@@ -24,3 +24,45 @@
 2024-10-10T00:24:17+05:30 [info]: Filled pasword
 2024-10-10T00:24:17+05:30 [info]: Clicked login button
 2024-10-10T00:24:17+05:30 [info]: Test for login is completed
+2024-10-10T00:26:09+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T00:26:10+05:30 [info]: Filled username
+2024-10-10T00:26:10+05:30 [info]: Filled pasword
+2024-10-10T00:26:10+05:30 [info]: Clicked login button
+2024-10-10T00:26:10+05:30 [info]: Test for login is completed
+2024-10-10T00:30:00+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T00:30:00+05:30 [info]: Filled username
+2024-10-10T00:30:00+05:30 [info]: Filled pasword
+2024-10-10T00:30:00+05:30 [info]: Clicked login button
+2024-10-10T00:30:00+05:30 [info]: Test for login is completed
+2024-10-10T00:32:29+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T00:32:29+05:30 [info]: Filled username
+2024-10-10T00:32:29+05:30 [info]: Filled pasword
+2024-10-10T00:32:29+05:30 [info]: Clicked login button
+2024-10-10T00:32:44+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Service')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Service')[22m
+
+2024-10-10T00:36:00+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T00:36:00+05:30 [info]: Filled username
+2024-10-10T00:36:00+05:30 [info]: Filled pasword
+2024-10-10T00:36:00+05:30 [info]: Clicked login button
+2024-10-10T00:36:15+05:30 [error]: Error clicking login button: Error: [31mTimed out 15000ms waiting for [39m[2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByTitle('Create New Account')
+Expected: visible
+Received: <element(s) not found>
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByTitle('Create New Account')[22m
+
+2024-10-10T00:37:09+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T00:37:10+05:30 [info]: Filled username
+2024-10-10T00:37:10+05:30 [info]: Filled pasword
+2024-10-10T00:37:10+05:30 [info]: Clicked login button
+2024-10-10T00:37:12+05:30 [info]: Create New Account button is visible
+2024-10-10T00:37:12+05:30 [info]: Test for login is completed

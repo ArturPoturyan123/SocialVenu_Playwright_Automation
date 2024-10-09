@@ -11,5 +11,6 @@ test("Login test", async ({ page }) => {
   await loginPage.fillUsername("arthurp@doublecoconut.com");
   await loginPage.fillPassword("123456");
   const homePage = await loginPage.clickLoginButton();
+  await homePage.expectcreateAccountButtonToBeVisible();
   logger.info("Test for login is completed");
 });
