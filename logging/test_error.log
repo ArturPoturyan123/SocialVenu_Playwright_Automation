@@ -16,3 +16,12 @@ Call log:
   [2m- expect.toBeVisible with timeout 15000ms[22m
 [2m  - waiting for getByTitle('Create New Account')[22m
 
+2024-10-10T02:08:58+05:30 [error]: Error clicking login button: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByText('Create New Account')
+Expected: visible
+Received: hidden
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByText('Create New Account')[22m
+

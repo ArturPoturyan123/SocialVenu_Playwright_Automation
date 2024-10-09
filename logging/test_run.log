@@ -72,3 +72,64 @@ Call log:
 2024-10-10T00:53:39+05:30 [info]: Clicked login button
 2024-10-10T00:53:41+05:30 [info]: Create New Account button is visible
 2024-10-10T00:53:41+05:30 [info]: Test for login is completed
+2024-10-10T02:05:01+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:05:01+05:30 [info]: Filled username
+2024-10-10T02:05:01+05:30 [info]: Filled pasword
+2024-10-10T02:05:01+05:30 [info]: Clicked login button
+2024-10-10T02:05:04+05:30 [info]: Create New Account button is visible
+2024-10-10T02:05:04+05:30 [info]: Test for login is completed
+2024-10-10T02:06:31+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:06:31+05:30 [info]: Filled username
+2024-10-10T02:06:31+05:30 [info]: Filled pasword
+2024-10-10T02:06:31+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:06:32+05:30 [info]: Filled username
+2024-10-10T02:06:32+05:30 [info]: Filled pasword
+2024-10-10T02:06:32+05:30 [info]: Clicked login button
+2024-10-10T02:06:32+05:30 [info]: Clicked login button
+2024-10-10T02:06:34+05:30 [info]: Create New Account button is visible
+2024-10-10T02:06:34+05:30 [info]: Test for login is completed
+2024-10-10T02:06:34+05:30 [info]: Create New Account button is visible
+2024-10-10T02:06:34+05:30 [info]: Test for login is completed
+2024-10-10T02:06:52+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:06:52+05:30 [info]: Filled username
+2024-10-10T02:06:52+05:30 [info]: Filled pasword
+2024-10-10T02:06:52+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:06:52+05:30 [info]: Filled username
+2024-10-10T02:06:52+05:30 [info]: Filled pasword
+2024-10-10T02:06:52+05:30 [info]: Clicked login button
+2024-10-10T02:06:52+05:30 [info]: Clicked login button
+2024-10-10T02:06:54+05:30 [info]: Create New Account button is visible
+2024-10-10T02:06:54+05:30 [info]: Test for login is completed
+2024-10-10T02:06:56+05:30 [info]: Create New Account button is visible
+2024-10-10T02:06:56+05:30 [info]: Test for login is completed
+2024-10-10T02:08:01+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:08:01+05:30 [info]: Filled username
+2024-10-10T02:08:01+05:30 [info]: Filled pasword
+2024-10-10T02:08:01+05:30 [info]: Clicked login button
+2024-10-10T02:08:03+05:30 [info]: Create New Account button is visible
+2024-10-10T02:08:03+05:30 [info]: Test for login is completed
+2024-10-10T02:08:17+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:08:20+05:30 [info]: Filled username
+2024-10-10T02:08:24+05:30 [info]: Filled pasword
+2024-10-10T02:08:27+05:30 [info]: Clicked login button
+2024-10-10T02:08:32+05:30 [info]: Create New Account button is visible
+2024-10-10T02:08:32+05:30 [info]: Test for login is completed
+2024-10-10T02:08:56+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:08:57+05:30 [info]: Filled username
+2024-10-10T02:08:58+05:30 [info]: Filled pasword
+2024-10-10T02:08:58+05:30 [info]: Clicked login button
+2024-10-10T02:08:58+05:30 [error]: Error clicking login button: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoBeVisible[2m()[22m
+
+Locator: getByText('Create New Account')
+Expected: visible
+Received: hidden
+Call log:
+  [2m- expect.toBeVisible with timeout 15000ms[22m
+[2m  - waiting for getByText('Create New Account')[22m
+
+2024-10-10T02:12:46+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T02:12:47+05:30 [info]: Filled username
+2024-10-10T02:12:47+05:30 [info]: Filled pasword
+2024-10-10T02:12:47+05:30 [info]: Clicked login button
+2024-10-10T02:12:49+05:30 [info]: Create New Account button is visible
+2024-10-10T02:12:49+05:30 [info]: Test for login is completed
