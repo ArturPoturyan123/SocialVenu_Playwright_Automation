@@ -66,3 +66,9 @@ Call log:
 2024-10-10T00:37:10+05:30 [info]: Clicked login button
 2024-10-10T00:37:12+05:30 [info]: Create New Account button is visible
 2024-10-10T00:37:12+05:30 [info]: Test for login is completed
+2024-10-10T00:53:39+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T00:53:39+05:30 [info]: Filled username
+2024-10-10T00:53:39+05:30 [info]: Filled pasword
+2024-10-10T00:53:39+05:30 [info]: Clicked login button
+2024-10-10T00:53:41+05:30 [info]: Create New Account button is visible
+2024-10-10T00:53:41+05:30 [info]: Test for login is completed
