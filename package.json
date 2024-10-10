@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "lint-fix": "eslint . --fix"
+    "lint-fix": "eslint . --fix",
+    "tests:api": "playwright test --config=api.config.ts --project=Chromium",
+    "tests:loginTest": "playwright test --config=playwright.config.ts --project=Chromium"
   },
   "keywords": [],
   "author": "",
