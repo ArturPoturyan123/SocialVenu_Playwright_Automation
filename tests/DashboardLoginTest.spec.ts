@@ -1,5 +1,5 @@
 import { expect,test } from "@playwright/test";
-import LoginPage from "../pages/LoginPage";
+import LoginPage from "../pages/DashboardLoginPage";
 import logger from "../utils/LoggerUtil";
 import { request } from "http";
 

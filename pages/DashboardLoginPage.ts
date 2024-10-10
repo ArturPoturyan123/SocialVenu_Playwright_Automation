@@ -1,5 +1,5 @@
 import { Page, expect } from "@playwright/test";
-import HomePage from "../pages/Home_Page";
+import HomePage from "./Home_Page";
 import logger from "../utils/LoggerUtil";
 import findValidElement from "../utils/SelfHealingUtill";
 export default class LoginPage {
