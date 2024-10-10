@@ -2,24 +2,31 @@ import { Page, expect } from "@playwright/test";
 import HomePage from "./Home_Page";
 import logger from "../utils/LoggerUtil";
 import findValidElement from "../utils/SelfHealingUtill";
-export default class LoginPage {
+import { BasePage } from "../pages/BaseBage";
+
+
+
+
+export default class LoginPage extends BasePage {
     private readonly usernameInputSelector = 'input[name="email"]';
     private readonly usernameInputSelectors = ["#username",'input[name="username"]', ".username", "//*[@id='username]"];
     private readonly passwordInputSelector = 'input[name="password"]';
     private readonly loginButtonSelector = 'button[type="submit"]';
     
    
-    constructor (private page:Page){
+    constructor (page:Page){
+      super(page);
     }
+
     async quickLogin(username: string, password: string) {
         await this.navigateToLoginPage();
         await this.fillUsername(username);
         await this.fillPassword(password);
         return await this.clickLoginButton();
       }
-    
+  
       async navigateToLoginPage() {
-        await this.page.goto("/");
+        await this.page.goto("login");
         logger.info("Navigated to dashboard-release.socialvenu.com/login");
       }
     

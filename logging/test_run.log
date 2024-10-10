@@ -218,3 +218,8 @@ Call log:
 2024-10-10T18:46:05+05:30 [info]: Filled pasword
 2024-10-10T18:46:05+05:30 [info]: Clicked login button
 2024-10-10T18:46:05+05:30 [info]: Test for login is completed
+2024-10-10T19:48:31+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-10T19:48:31+05:30 [info]: Filled username
+2024-10-10T19:48:31+05:30 [info]: Filled pasword
+2024-10-10T19:48:31+05:30 [info]: Clicked login button
+2024-10-10T19:48:31+05:30 [info]: Test for login is completed
