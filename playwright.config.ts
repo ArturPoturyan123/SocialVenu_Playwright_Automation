@@ -1,5 +1,9 @@
 // @ts-check
+import dotenv from 'dotenv';
+dotenv.config();
+
 const { defineConfig, devices } = require('@playwright/test');
+
 
 /**
  * Read environment variables from file.
@@ -26,6 +30,9 @@ module.exports = defineConfig({
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     baseURL: 'https://dashboard-release.socialvenu.com/',
+    email: 'arthurp@doublecoconut.com', // Add your email here
+    password: '123456', // Add your password here
+   
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',

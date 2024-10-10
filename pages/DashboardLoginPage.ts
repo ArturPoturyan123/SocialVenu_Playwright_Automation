@@ -31,10 +31,24 @@ export default class LoginPage extends BasePage {
       }
     
       async fillUsername(username: string) {
+        if (!username) {
+            logger.error("Username cannot be empty");
+            throw new Error("Username cannot be empty");
+        }
+
         await this.page.locator(this.usernameInputSelector).fill(username);
-        logger.info("Filled username");
-      }
-    
+        logger.info(`Filled username: ${username}`);
+    }
+
+    async fillPassword(password: string) {
+        if (!password) {
+            logger.error("Password cannot be empty");
+            throw new Error("Password cannot be empty");
+        }
+
+        await this.page.locator(this.passwordInputSelector).fill(password);
+        logger.info(`Filled password: ${password}`);
+    }
       async fillUsername_selfheal(username: string) {
         let usernameInputLocator = await findValidElement(this.page,this.usernameInputSelectors );
         await usernameInputLocator?.fill(username);
@@ -42,12 +56,6 @@ export default class LoginPage extends BasePage {
         expect(enteredValue).toBe(username);
        
       }
-    
-      async fillPassword(password: string) {
-        await this.page.locator(this.passwordInputSelector).fill(password);
-        logger.info("Filled pasword");
-      }
-    
       async clickLoginButton() {
         await this.page
           .locator(this.loginButtonSelector)

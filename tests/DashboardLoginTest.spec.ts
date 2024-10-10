@@ -10,9 +10,10 @@ test("Login test", async ({ page }) => {
 
   // await loginPage.quickLogin('arthurp@doublecoconut.com', '123456');
   await loginPage.navigateToLoginPage();
-  await loginPage.fillUsername("arthurp@doublecoconut.com");
-  await loginPage.fillPassword("123456");
+  await loginPage.fillUsername(process.env.EMAIL!);
+  await loginPage.fillPassword(process.env.PASSWORD!);
   const homePage = await loginPage.clickLoginButton();
+  await homePage.expectcreateAccountButtonToBeVisible();
   logger.info("Test for login is completed");
   // await page.getByRole("textbox").nth(0).fill("admin");
   // await page.getByRole("textbox",{name:"email"}).fill("arturrrrrrrr");
@@ -23,5 +24,4 @@ test("Login test", async ({ page }) => {
   // await loginPage.fillUsername("arthurp@doublecoconut.com");
   // await loginPage.fillPassword("123456");
   // const homePage = await loginPage.clickLoginButton();
-  // await homePage.expectcreateAccountButtonToBeVisible();
 });
