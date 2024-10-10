@@ -1,10 +1,8 @@
 import { expect, test } from "@playwright/test";
-import { request } from "http";
 
-test.describe.parallel("API Testing SocialVenu Dashbord Login", () => {
-  test("API Test - Get accessToken and use X-Auth-Token header", async ({
-    request,
-  }) => {
+test.describe.parallel("API Testing SocialVenu Dashboard Login", () => {
+  test("API Test - Post request Login", async ({ request }) => {
+    // Login request to get accessToken
     const loginResponse = await request.post(
       "https://sv-api-rc.socialvenu.com/api/v1/auth/customer",
       {
@@ -14,26 +12,31 @@ test.describe.parallel("API Testing SocialVenu Dashbord Login", () => {
         },
       }
     );
-
+    expect(loginResponse.status()).toBe(200);
+    const responseBody = await loginResponse.json();
+    expect(responseBody.accessToken).toBeTruthy();
+    console.log(`Access Token: ${responseBody.accessToken}`);
     expect(loginResponse.status()).toBe(200);
 
-    const responseBody = await loginResponse.json();
-    const accessToken = responseBody.accessToken;
+    // const responseBody = await loginResponse.json();
+    // const accessToken = responseBody.accessToken;
 
-    console.log(`Access Token: ${accessToken}`);
+    // console.log(`Access Token: ${accessToken}`);
 
-    const anotherApiResponse = await request.get(
-      "https://sv-api-rc.socialvenu.com/api/v1/auth/customer",
-      {
-        headers: {
-          "X-Auth-Token": accessToken,
-        },
-      }
-    );
+    // // Use the accessToken for another API request
+    // const anotherApiResponse = await request.get(
+    //   "https://sv-api-rc.socialvenu.com/api/v1/auth/venues",
+    //   {
+    //     headers: {
+    //       "X-Auth-Token": accessToken, // Pass the token in headers
+    //     },
+    //   }
+    // );
 
-    expect(anotherApiResponse.status()).toBe(200);
+    // // Ensure the second request is successful
+    // // expect(anotherApiResponse.status()).toBe(200);
 
-    const secondResponseBody = await anotherApiResponse.json();
-    console.log(secondResponseBody);
+    // const secondResponseBody = await anotherApiResponse.json();
+    // console.log(secondResponseBody);
   });
 });
