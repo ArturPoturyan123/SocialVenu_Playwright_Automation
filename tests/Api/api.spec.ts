@@ -25,7 +25,7 @@ test.describe.parallel("API Testing SocialVenu Dashboard Login", () => {
 
     // // Use the accessToken for another API request
     // const anotherApiResponse = await request.get(
-    //   "https://sv-api-rc.socialvenu.com/api/v1/auth/venues",
+    //   "https://sv-api-rc.socialvenu.com/api/v1/venues",
     //   {
     //     headers: {
     //       "X-Auth-Token": accessToken, // Pass the token in headers
