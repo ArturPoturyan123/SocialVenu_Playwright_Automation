@@ -263,3 +263,15 @@ Call log:
 2024-10-10T20:14:37+05:30 [info]: Clicked login button
 2024-10-10T20:14:39+05:30 [info]: Create New Account button is visible
 2024-10-10T20:14:39+05:30 [info]: Test for login is completed
+2024-10-17T22:53:43+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-10-17T22:53:43+05:30 [info]: Filled username: arthurp@doublecoconut.com
+2024-10-17T22:53:43+05:30 [info]: Filled password: 123456
+2024-10-17T22:53:43+05:30 [info]: Clicked login button
+2024-10-17T22:53:45+05:30 [info]: Create New Account button is visible
+2024-10-17T22:53:45+05:30 [info]: Test for login is completed
+2024-11-13T18:59:55+05:30 [info]: Navigated to dashboard-release.socialvenu.com/login
+2024-11-13T18:59:55+05:30 [info]: Filled username: arthurp@doublecoconut.com
+2024-11-13T18:59:55+05:30 [info]: Filled password: 123456
+2024-11-13T18:59:55+05:30 [info]: Clicked login button
+2024-11-13T18:59:57+05:30 [info]: Create New Account button is visible
+2024-11-13T18:59:57+05:30 [info]: Test for login is completed
